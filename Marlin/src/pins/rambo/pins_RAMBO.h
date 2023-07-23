@@ -57,7 +57,7 @@
 #endif
 #define SERVO1_PIN                            23  // Motor header MX2
 #ifndef SERVO2_PIN
-  #define SERVO2_PIN                          24  // Motor header MX3
+  #define SERVO2_PIN                          46  // Motor header MX3
 #endif
 #define SERVO3_PIN                             5  // PWM header pin 5
 
@@ -157,9 +157,9 @@
 #define LED_PIN                               13
 #define PS_ON_PIN                              4
 
-#ifndef CASE_LIGHT_PIN
-  #define CASE_LIGHT_PIN                      46
-#endif
+// #ifndef CASE_LIGHT_PIN
+//   #define CASE_LIGHT_PIN                      46
+// #endif
 
 #ifndef FILWIDTH_PIN
   #define FILWIDTH_PIN                         3  // Analog Input
